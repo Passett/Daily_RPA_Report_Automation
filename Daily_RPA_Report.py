@@ -162,6 +162,7 @@ print("Successfully logged into Grants Portal")
 #Download Report
 GP_export(RPA_Listing, attachment_destination, "RPA Breakdown_")
 print("RPA export successfully downloaded")
+driver.close()
 
 #Open the RPA report template, refresh the data sources and save as new name in correct location
 print("prepping finalized report")
